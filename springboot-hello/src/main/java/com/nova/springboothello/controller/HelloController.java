@@ -1,4 +1,4 @@
-package com.example.nova.controller;
+package com.nova.springboothello.controller;
 
 
 import org.springframework.stereotype.Controller;

@@ -1,10 +1,10 @@
-package com.example.nova;
+package com.nova.springboothello;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class NovaApplicationTests {
+class SpringbootHelloApplicationTests {
 
     @Test
     void contextLoads() {

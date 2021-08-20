@@ -6,9 +6,10 @@
         <groupId>org.springframework.boot</groupId>
         <artifactId>spring-boot-starter-parent</artifactId>
         <version>2.5.4</version>
-        <relativePath/> <!-- lookup parent from repository -->
+        <relativePath/>
     </parent>
-    <groupId>com.example</groupId>
+
+    <groupId>com.nova</groupId>
     <artifactId>nova</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <name>nova</name>
@@ -17,6 +18,11 @@
         <java.version>1.8</java.version>
     </properties>
 
+    <packaging>pom</packaging>
+
+    <modules>
+        <module>springboot-hello</module>
+    </modules>
 
     <dependencies>
         <dependency>
