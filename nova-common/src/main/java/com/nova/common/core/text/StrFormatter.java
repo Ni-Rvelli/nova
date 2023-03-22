@@ -1,12 +1,12 @@
 package com.nova.common.core.text;
 
 
-import com.nova.common.util.StringUtils;
+import com.nova.common.utils.StringUtils;
 
 /**
  * 字符串格式化
  * 
- * @author ruoyi
+ * @author nova
  */
 public class StrFormatter
 {

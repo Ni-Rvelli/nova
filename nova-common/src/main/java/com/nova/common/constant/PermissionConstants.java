@@ -3,7 +3,7 @@ package com.nova.common.constant;
 /**
  * 权限通用常量
  * 
- * @author ruoyi
+ * @author nova
  */
 public class PermissionConstants
 {

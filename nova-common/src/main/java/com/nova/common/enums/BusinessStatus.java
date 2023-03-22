@@ -3,7 +3,7 @@ package com.nova.common.enums;
 /**
  * 操作状态
  * 
- * @author ruoyi
+ * @author nova
  */
 public enum BusinessStatus
 {

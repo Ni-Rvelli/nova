@@ -5,7 +5,7 @@
 
     <groupId>com.nova</groupId>
     <artifactId>nova</artifactId>
-    <version>0.0.1-SNAPSHOT</version>
+    <version>1.0.0</version>
 
     <name>nova</name>
     <description>nova</description>
@@ -32,12 +32,7 @@
         <velocity.version>2.3</velocity.version>
     </properties>
 
-    <packaging>pom</packaging>
 
-    <modules>
-        <module>nova-system</module>
-        <module>nova-common</module>
-    </modules>
 
     <!-- 依赖声明 -->
     <dependencyManagement>
@@ -170,11 +165,42 @@
                 <version>${fastjson.version}</version>
             </dependency>
 
+            <!-- 核心模块-->
+            <dependency>
+                <groupId>com.nova</groupId>
+                <artifactId>nova-framework</artifactId>
+                <version>${nova.version}</version>
+            </dependency>
 
+            <!-- 系统模块-->
+            <dependency>
+                <groupId>com.nova</groupId>
+                <artifactId>nova-system</artifactId>
+                <version>${nova.version}</version>
+            </dependency>
+
+            <!-- 通用工具-->
+            <dependency>
+                <groupId>com.nova</groupId>
+                <artifactId>nova-common</artifactId>
+                <version>${nova.version}</version>
+            </dependency>
 
 
         </dependencies>
     </dependencyManagement>
+
+
+    <modules>
+        <module>nova-system</module>
+        <module>nova-common</module>
+        <module>nova-framework</module>
+        <module>nova-generator</module>
+        <module>nova-quartz</module>
+    </modules>
+    <packaging>pom</packaging>
+
+
     <build>
         <plugins>
             <plugin>

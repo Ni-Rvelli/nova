@@ -6,10 +6,10 @@ import org.springframework.stereotype.Component;
 /**
  * 全局配置类
  * 
- * @author ruoyi
+ * @author nova
  */
 @Component
-@ConfigurationProperties(prefix = "ruoyi")
+@ConfigurationProperties(prefix = "nova")
 public class NovaConfig
 {
     /** 项目名称 */

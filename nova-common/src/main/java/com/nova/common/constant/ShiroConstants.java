@@ -3,7 +3,7 @@ package com.nova.common.constant;
 /**
  * Shiro通用常量
  * 
- * @author ruoyi
+ * @author nova
  */
 public class ShiroConstants
 {

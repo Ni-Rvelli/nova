@@ -1,7 +1,7 @@
 package com.nova.common.annotation;
 
 
-import com.nova.common.util.poi.ExcelHandlerAdapter;
+import com.nova.common.utils.poi.ExcelHandlerAdapter;
 import org.apache.poi.ss.usermodel.HorizontalAlignment;
 import org.apache.poi.ss.usermodel.IndexedColors;
 
@@ -14,7 +14,7 @@ import java.math.BigDecimal;
 /**
  * 自定义导出Excel数据注解
  * 
- * @author ruoyi
+ * @author nova
  */
 @Retention(RetentionPolicy.RUNTIME)
 @Target(ElementType.FIELD)

@@ -3,7 +3,7 @@ package com.nova.common.enums;
 /**
  * 用户状态
  * 
- * @author ruoyi
+ * @author nova
  */
 public enum UserStatus
 {

@@ -3,7 +3,7 @@ package com.nova.common.core.domain;
 /**
  * Tree基类
  * 
- * @author ruoyi
+ * @author nova
  */
 public class TreeEntity extends BaseEntity
 {

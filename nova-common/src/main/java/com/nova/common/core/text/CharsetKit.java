@@ -1,7 +1,9 @@
 package com.nova.common.core.text;
 
 
-import com.nova.common.util.StringUtils;
+
+
+import com.nova.common.utils.StringUtils;
 
 import java.nio.charset.Charset;
 import java.nio.charset.StandardCharsets;
@@ -9,7 +11,7 @@ import java.nio.charset.StandardCharsets;
 /**
  * 字符集工具类
  * 
- * @author ruoyi
+ * @author nova
  */
 public class CharsetKit
 {

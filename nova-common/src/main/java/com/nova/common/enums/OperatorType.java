@@ -3,7 +3,7 @@ package com.nova.common.enums;
 /**
  * 操作人类别
  * 
- * @author ruoyi
+ * @author nova
  */
 public enum OperatorType
 {

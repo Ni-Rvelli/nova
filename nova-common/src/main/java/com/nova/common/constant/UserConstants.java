@@ -3,7 +3,7 @@ package com.nova.common.constant;
 /**
  * 用户常量信息
  * 
- * @author ruoyi
+ * @author nova
  */
 public class UserConstants
 {

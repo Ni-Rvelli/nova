@@ -3,7 +3,7 @@ package com.nova.common.enums;
 /**
  * 业务操作类型
  * 
- * @author ruoyi
+ * @author nova
  */
 public enum BusinessType
 {

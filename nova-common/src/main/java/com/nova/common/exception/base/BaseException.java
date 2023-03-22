@@ -1,13 +1,13 @@
 package com.nova.common.exception.base;
 
 
-import com.nova.common.util.MessageUtils;
-import com.nova.common.util.StringUtils;
+import com.nova.common.utils.MessageUtils;
+import com.nova.common.utils.StringUtils;
 
 /**
  * 基础异常
  * 
- * @author ruoyi
+ * @author nova
  */
 public class BaseException extends RuntimeException
 {

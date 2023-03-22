@@ -1,7 +1,8 @@
 package com.nova.common.spring;
 
 
-import com.nova.common.util.StringUtils;
+
+import com.nova.common.utils.StringUtils;
 import org.springframework.aop.framework.AopContext;
 import org.springframework.beans.BeansException;
 import org.springframework.beans.factory.NoSuchBeanDefinitionException;
@@ -14,7 +15,7 @@ import org.springframework.stereotype.Component;
 /**
  * spring工具类 方便在非spring管理环境中获取bean
  * 
- * @author ruoyi
+ * @author nova
  */
 @Component
 public final class SpringUtils implements BeanFactoryPostProcessor, ApplicationContextAware

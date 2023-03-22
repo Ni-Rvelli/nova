@@ -3,7 +3,7 @@ package com.nova.common.constant;
 /**
  * 任务调度通用常量
  * 
- * @author ruoyi
+ * @author nova
  */
 public class ScheduleConstants
 {

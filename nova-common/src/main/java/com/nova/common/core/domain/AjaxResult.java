@@ -2,7 +2,9 @@ package com.nova.common.core.domain;
 
 
 
-import com.nova.common.util.StringUtils;
+
+
+import com.nova.common.utils.StringUtils;
 
 import java.util.HashMap;
 import java.util.Objects;
@@ -10,7 +12,7 @@ import java.util.Objects;
 /**
  * 操作消息提醒
  *
- * @author ruoyi
+ * @author nova
  */
 public class AjaxResult extends HashMap<String, Object>
 {
