@@ -18,7 +18,7 @@ import com.nova.common.core.controller.BaseController;
 import com.nova.common.core.domain.AjaxResult;
 import com.nova.common.utils.poi.ExcelUtil;
 #if($table.crud || $table.sub)
-import com.nova.common.core.page.TableDataInfo;
+import com.nova.common.core.domain.page.TableDataInfo;
 #elseif($table.tree)
 import com.nova.common.utils.StringUtils;
 import com.nova.common.core.domain.Ztree;

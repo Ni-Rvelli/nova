@@ -165,6 +165,20 @@
                 <version>${fastjson.version}</version>
             </dependency>
 
+            <!-- 定时任务-->
+            <dependency>
+                <groupId>com.nova</groupId>
+                <artifactId>nova-quartz</artifactId>
+                <version>${nova.version}</version>
+            </dependency>
+
+            <!-- 代码生成-->
+            <dependency>
+                <groupId>com.nova</groupId>
+                <artifactId>nova-generator</artifactId>
+                <version>${nova.version}</version>
+            </dependency>
+
             <!-- 核心模块-->
             <dependency>
                 <groupId>com.nova</groupId>
@@ -192,6 +206,7 @@
 
 
     <modules>
+        <module>nova-admin</module>
         <module>nova-system</module>
         <module>nova-common</module>
         <module>nova-framework</module>
